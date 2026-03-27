@@ -35,8 +35,16 @@ export default function HomePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-brand-600 via-brand-700 to-brand-900 text-white">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(255,255,255,0.08),_transparent_60%)]" />
+      <section className="relative overflow-hidden bg-brand-700 text-white">
+        {/* Background children image */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="http://imagiration.com/wp-content/uploads/2014/03/girls.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover object-center opacity-40"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-900/80 to-brand-700/50" />
         <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-24 sm:py-32">
           <div className="max-w-3xl">
             <p className="inline-flex items-center gap-2 text-sm font-medium text-brand-100 bg-white/10 rounded-full px-4 py-1.5 mb-6">
