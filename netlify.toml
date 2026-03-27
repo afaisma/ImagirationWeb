@@ -1,4 +1,0 @@
-# Static site — no build step
-[build]
-  publish = "."
-  # No build command; Netlify serves files as-is
