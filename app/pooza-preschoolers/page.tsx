@@ -8,9 +8,21 @@ export const metadata: Metadata = {
 };
 
 const features = [
-  "Puzzles gradually increase in difficulty to facilitate brain training",
-  "Simple drag-and-drop mechanism makes it easy for toddlers and kids to touch and move objects",
-  "Intuitive and friendly interface with beautiful graphics that every child will love",
+  {
+    img: "http://imagiration.com/wp-content/uploads/2014/03/i_educational_elephant_pink.png",
+    title: "Fun & Educational",
+    body: "Puzzles gradually increase in difficulty to facilitate brain training",
+  },
+  {
+    img: "http://imagiration.com/wp-content/uploads/2014/03/i_interactive_s.png",
+    title: "Simple Interactions",
+    body: "Simple drag-and-drop mechanism makes it easy for toddlers and kids to touch and move objects",
+  },
+  {
+    img: "http://imagiration.com/wp-content/uploads/2014/03/i_fun_smiley.png",
+    title: "Friendly & Engaging",
+    body: "Intuitive and friendly interface with beautiful graphics that every child will love",
+  },
 ];
 
 const puzzleImages = [
@@ -117,17 +129,19 @@ export default function PoozaPreschoolersPage() {
       {/* Features */}
       <section className="bg-amber-50 border-y border-amber-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10">
             Why kids love it
           </h2>
-          <ul className="space-y-4 max-w-2xl">
+          <div className="grid sm:grid-cols-3 gap-8">
             {features.map((f) => (
-              <li key={f} className="flex items-start gap-3">
-                <span className="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-amber-500 text-white flex items-center justify-center text-xs font-bold">✓</span>
-                <span className="text-gray-700 leading-relaxed">{f}</span>
-              </li>
+              <div key={f.title} className="flex flex-col items-center text-center gap-4">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={f.img} alt={f.title} className="w-20 h-20 object-contain" />
+                <h3 className="font-bold text-gray-900 text-lg">{f.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed">{f.body}</p>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
 
