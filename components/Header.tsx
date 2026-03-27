@@ -46,11 +46,13 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link
-            href="/"
-            className="text-xl font-bold tracking-tight text-gray-900 hover:text-brand-600 transition-colors"
-          >
-            ImagiRation
+          <Link href="/" className="flex items-center">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="http://imagiration.com/wp-content/uploads/2016/09/logo_horizontal-2.png"
+              alt="ImagiRation"
+              className="h-10 w-auto"
+            />
           </Link>
 
           {/* Desktop nav */}
