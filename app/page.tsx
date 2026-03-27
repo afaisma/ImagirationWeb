@@ -87,13 +87,30 @@ export default function HomePage() {
 
       {/* Science */}
       <section id="science" className="max-w-6xl mx-auto px-4 sm:px-6 py-20">
+        {/* Science video */}
+        <div className="mb-14">
+          <p className="text-sm font-semibold text-brand-600 uppercase tracking-wider mb-3">
+            Peer-reviewed science
+          </p>
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">
+            Learn about the <strong>SCIENCE</strong> behind our apps
+          </h2>
+          <div className="aspect-video w-full max-w-3xl rounded-2xl overflow-hidden shadow-lg">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/e7uXAlXdTe4"
+              title="The science of imagination - Andrey Vyshedskiy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-sm font-semibold text-brand-600 uppercase tracking-wider mb-3">
-              Peer-reviewed science
-            </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 leading-tight mb-5">
-              Learn about the science behind our apps
+              Our clinical results
             </h2>
             <p className="text-gray-600 leading-relaxed mb-6">
               In a 3-year clinical study of 6,454 children with autism, children
