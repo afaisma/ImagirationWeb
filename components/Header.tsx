@@ -8,10 +8,10 @@ const navItems = [
     label: "For Brain Training",
     href: "/brain-training",
     dropdown: [
-      { label: "Math & Logic Kids Games", href: "/brain-training#math-logic" },
-      { label: "Pooza for Preschoolers", href: "/brain-training#pooza-preschoolers" },
-      { label: "Pooza for Toddlers", href: "/brain-training#pooza-toddlers" },
-      { label: "RecoverBrain Therapy", href: "/brain-training#recoverbrain" },
+      { label: "Math & Logic Kids Games", href: "/math-logic" },
+      { label: "Pooza for Preschoolers", href: "/pooza-preschoolers" },
+      { label: "Pooza for Toddlers", href: "/pooza-for-toddlers" },
+      { label: "RecoverBrain Therapy", href: "/recoverbrain-therapy" },
     ],
   },
   {
