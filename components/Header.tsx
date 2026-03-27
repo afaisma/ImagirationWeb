@@ -18,21 +18,22 @@ const navItems = [
     label: "For Autism",
     href: "/autism",
     dropdown: [
-      { label: "MITA", href: "/autism" },
-      { label: "Download", href: "/autism#download" },
-      { label: "Science", href: "/autism#science" },
-      { label: "FAQs", href: "https://www.imagiration.com/autism/mita-faqs/", external: true },
+      { label: "MITA Games", href: "/autism/mita-games" },
+      { label: "MITA Parent's Corner", href: "/mita-parents-corner" },
+      { label: "MITA FAQs", href: "/autism/mita-faqs" },
+      { label: "MITA Testimonials", href: "/autism/testimonials-for-mita" },
+      { label: "MITA News", href: "/autism/mita-news" },
+      { label: "VADA – Speech Therapy Step 1", href: "/vada" },
+      { label: "SITA – Speech Therapy Step 2", href: "/sita-speech-therapy-step-2" },
+      { label: "Donate", href: "/autism#donate" },
     ],
   },
   {
     label: "Testimonials",
-    href: "/autism#testimonials",
+    href: "/autism/testimonials-for-mita",
     dropdown: [
-      {
-        label: "MITA Testimonials",
-        href: "https://www.imagiration.com/autism/testimonials-for-mita/",
-        external: true,
-      },
+      { label: "MITA Testimonials", href: "/autism/testimonials-for-mita" },
+      { label: "POOZA Testimonials", href: "/autism/pooza-testimonials" },
     ],
   },
 ];
@@ -105,7 +106,7 @@ export default function Header() {
             ))}
 
             <Link
-              href="/#science"
+              href="/science"
               className="px-3 py-2 text-sm font-medium text-gray-700 rounded-md hover:text-brand-600 hover:bg-brand-50 transition-colors"
             >
               Science
@@ -169,7 +170,7 @@ export default function Header() {
               </div>
             ))}
             <Link
-              href="/#science"
+              href="/science"
               onClick={() => setMobileOpen(false)}
               className="block px-4 py-2 text-sm font-semibold text-gray-800"
             >
