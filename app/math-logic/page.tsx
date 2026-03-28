@@ -94,16 +94,26 @@ export default function MathLogicPage() {
 
       {/* Intro */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-        <div className="max-w-3xl">
-          <p className="text-gray-600 leading-relaxed text-lg mb-4">
-            Introducing our exciting new app: <strong>Math &amp; Logic</strong> — Education Games, Art Activities and Learning Puzzles: Adaptive Brain Training for Preschoolers to Age 10.
-          </p>
-          <p className="text-gray-600 leading-relaxed text-lg mb-4">
-            ImagiRation&apos;s free math and brain training program consists of fun and interactive puzzle games to help your child learn math and improve cognitive development.
-          </p>
-          <p className="text-gray-600 leading-relaxed text-lg">
-            This app teaches your child through a variety of interactive learning activities including games, animations, art activities, and puzzles — all of which can be monitored by parents and administrators through the Progress Tracker.
-          </p>
+        <div className="flex flex-col md:flex-row gap-10 items-center">
+          <div className="md:w-1/2">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/2014/03/latest.png"
+              alt="Math & Logic app on iPad"
+              className="w-full rounded-2xl shadow-lg"
+            />
+          </div>
+          <div className="md:w-1/2">
+            <p className="text-gray-600 leading-relaxed text-lg mb-4">
+              Introducing our exciting new app: <strong>Math &amp; Logic</strong> — Education Games, Art Activities and Learning Puzzles: Adaptive Brain Training for Preschoolers to Age 10.
+            </p>
+            <p className="text-gray-600 leading-relaxed text-lg mb-4">
+              ImagiRation&apos;s free math and brain training program consists of fun and interactive puzzle games to help your child learn math and improve cognitive development.
+            </p>
+            <p className="text-gray-600 leading-relaxed text-lg">
+              This app teaches your child through a variety of interactive learning activities including games, animations, art activities, and puzzles — all of which can be monitored by parents and administrators through the Progress Tracker.
+            </p>
+          </div>
         </div>
       </section>
 

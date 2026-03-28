@@ -102,13 +102,23 @@ export default function PoozaPreschoolersPage() {
 
       {/* Intro */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-        <div className="max-w-3xl">
-          <p className="text-gray-600 leading-relaxed text-lg mb-4">
-            <strong>POOZA for Preschoolers</strong> is made up of educational puzzles that are designed to improve your child&apos;s concentration &amp; learning abilities, reasoning &amp; logic skills, cognitive development and visual &amp; spatial processing in a fun, game environment.
-          </p>
-          <p className="text-gray-600 leading-relaxed text-lg">
-            Children can use this app at home or on the go. Allow your child to play and have fun while developing cognitive skills they will use throughout their lives.
-          </p>
+        <div className="flex flex-col md:flex-row gap-10 items-center">
+          <div className="md:w-1/2">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/2014/03/Puzzle_inIpad2.png"
+              alt="POOZA puzzles on iPad"
+              className="w-full rounded-2xl shadow-lg"
+            />
+          </div>
+          <div className="md:w-1/2">
+            <p className="text-gray-600 leading-relaxed text-lg mb-4">
+              <strong>POOZA for Preschoolers</strong> is made up of educational puzzles that are designed to improve your child&apos;s concentration &amp; learning abilities, reasoning &amp; logic skills, cognitive development and visual &amp; spatial processing in a fun, game environment.
+            </p>
+            <p className="text-gray-600 leading-relaxed text-lg">
+              Children can use this app at home or on the go. Allow your child to play and have fun while developing cognitive skills they will use throughout their lives.
+            </p>
+          </div>
         </div>
       </section>
 
