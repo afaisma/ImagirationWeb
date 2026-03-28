@@ -201,7 +201,7 @@ export default function SciencePage() {
               <span className="w-1.5 h-1.5 rounded-full bg-green-400" />
               FDA Breakthrough Device Designation
             </p>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-5">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-5">
               Science
             </h1>
             <p className="text-lg text-indigo-100 leading-relaxed">
@@ -224,7 +224,7 @@ export default function SciencePage() {
               data-animate
               className="text-center p-8 rounded-2xl bg-indigo-50 border border-indigo-100 hover:shadow-md transition-shadow duration-200"
             >
-              <p className="text-2xl sm:text-3xl font-bold text-indigo-700 mb-2">{stat.value}</p>
+              <p className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent mb-2">{stat.value}</p>
               <p className="text-gray-600 text-sm">{stat.label}</p>
             </div>
           ))}

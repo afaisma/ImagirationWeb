@@ -58,8 +58,8 @@ export default function MathLogicPage() {
             <p className="inline-flex items-center gap-2 text-sm font-medium text-violet-200 bg-white/20 border border-white/20 rounded-full px-4 py-1.5 mb-6">
               Brain Training App
             </p>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-5">
-              Math &amp; Logic
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-5">
+              <span className="bg-gradient-to-r from-white to-violet-200 bg-clip-text text-transparent">Math &amp; Logic</span>
             </h1>
             <p className="text-lg text-violet-100 leading-relaxed mb-8">
               Education Games, Art Activities and Learning Puzzles — Adaptive Brain Training for Preschoolers to Age 10.

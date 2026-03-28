@@ -17,7 +17,7 @@ export default function ContactPage() {
             <p className="inline-flex items-center gap-2 text-sm font-medium text-indigo-200 bg-white/10 rounded-full px-4 py-1.5 mb-6">
               ImagiRation
             </p>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-5">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-5">
               Contact Us
             </h1>
             <p className="text-lg text-indigo-100 leading-relaxed">
