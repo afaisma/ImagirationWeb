@@ -117,7 +117,7 @@ export default function MitaTestimonialsPage() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pt-12 flex justify-center">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://imagiration.com/wp-content/uploads/2015/08/mita.png"
+          src="/images/2015/08/mita.png"
           alt="MITA"
           style={{ width: 120 }}
           className="h-auto"

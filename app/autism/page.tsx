@@ -114,7 +114,7 @@ export default function AutismPage() {
             <p className="text-gray-600 leading-relaxed mb-4">
               FDA has granted MITA a{" "}
               <a
-                href="https://www.imagiration.com/wp-content/uploads/2022/06/FDA_MITA_-breakthrough_Q210093.pdf"
+                href="/images/2022/06/FDA_MITA_-breakthrough_Q210093.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-teal-600 hover:text-teal-700 underline underline-offset-2"
@@ -265,7 +265,7 @@ export default function AutismPage() {
                 and who it's for.
               </p>
               <a
-                href="https://www.imagiration.com/autism/mita-faqs/"
+                href="/autism/mita-faqs"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-semibold text-teal-600 hover:text-teal-700"
@@ -285,7 +285,7 @@ export default function AutismPage() {
                 Read stories from parents and therapists using MITA every day.
               </p>
               <a
-                href="https://www.imagiration.com/autism/testimonials-for-mita/"
+                href="/autism/testimonials-for-mita"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-semibold text-teal-600 hover:text-teal-700"

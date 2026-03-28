@@ -39,7 +39,7 @@ export default function HomePage() {
         {/* Background children image */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://imagiration.com/wp-content/uploads/2014/03/girls.jpg"
+          src="/images/2014/03/girls.jpg"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover object-center opacity-40"

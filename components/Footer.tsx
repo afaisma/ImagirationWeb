@@ -70,7 +70,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.imagiration.com/autism/mita-faqs/"
+                  href="/autism/mita-faqs"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 hover:text-brand-600 transition-colors"
