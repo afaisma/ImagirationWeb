@@ -221,7 +221,7 @@ export default function SciencePage() {
           ].map((stat) => (
             <div
               key={stat.label}
-              className="text-center p-8 rounded-2xl bg-indigo-50 border border-indigo-100"
+              className="text-center p-8 rounded-2xl bg-indigo-50 border border-indigo-100 hover:shadow-md transition-shadow duration-200"
             >
               <p className="text-2xl sm:text-3xl font-bold text-indigo-700 mb-2">{stat.value}</p>
               <p className="text-gray-600 text-sm">{stat.label}</p>
@@ -298,7 +298,7 @@ export default function SciencePage() {
               href="https://www.mdpi.com/2227-9032/8/4/566"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-700 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200"
             >
               Read the Clinical Paper
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -320,7 +320,7 @@ export default function SciencePage() {
           </p>
           <Link
             href="/autism"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 transition-colors shadow"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-700 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200"
           >
             Learn About MITA
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

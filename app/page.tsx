@@ -65,13 +65,13 @@ export default function HomePage() {
             <div className="flex flex-wrap gap-4">
               <Link
                 href="/autism"
-                className="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-brand-700 font-bold rounded-2xl hover:bg-blue-50 transition-colors shadow-lg text-base"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white text-brand-700 font-bold rounded-xl shadow-md hover:bg-blue-50 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
               >
                 Apps for Autism
               </Link>
               <Link
                 href="/brain-training"
-                className="inline-flex items-center gap-2 px-7 py-3.5 bg-white/15 border border-white/30 text-white font-bold rounded-2xl hover:bg-white/25 transition-colors text-base"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-white/15 border border-white/25 text-white font-semibold rounded-xl hover:bg-white/25 transition-all duration-200"
               >
                 Brain Training Apps
               </Link>
@@ -139,7 +139,7 @@ export default function HomePage() {
                   href="https://www.mdpi.com/2227-9032/8/4/566"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-indigo-600 text-white font-semibold rounded-xl hover:bg-indigo-700 transition-colors text-sm shadow"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-xl shadow hover:bg-indigo-700 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200 text-sm"
                 >
                   Read the Study
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -148,7 +148,7 @@ export default function HomePage() {
                 </a>
                 <Link
                   href="/autism"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-white border border-indigo-200 text-indigo-700 font-semibold rounded-xl hover:bg-indigo-50 transition-colors text-sm"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-white border border-gray-200 text-gray-700 font-semibold rounded-xl hover:border-indigo-300 hover:text-indigo-600 hover:shadow-sm transition-all duration-200 text-sm"
                 >
                   Learn about MITA
                 </Link>
@@ -181,7 +181,7 @@ export default function HomePage() {
               ].map((card) => (
                 <div
                   key={card.title}
-                  className={`flex gap-4 p-5 ${card.bg} rounded-2xl border`}
+                  className={`flex gap-4 p-5 ${card.bg} rounded-2xl border hover:shadow-md transition-shadow duration-200`}
                 >
                   <span className={`text-2xl w-12 h-12 flex items-center justify-center rounded-xl ${card.iconBg} flex-shrink-0`}>{card.icon}</span>
                   <div>
@@ -207,7 +207,7 @@ export default function HomePage() {
           {partners.map((p) => (
             <div
               key={p.name}
-              className={`bg-white rounded-3xl border border-gray-200 border-l-4 ${p.accent} p-8 shadow-sm hover:shadow-md transition-shadow`}
+              className={`bg-white rounded-3xl border border-gray-200 border-l-4 ${p.accent} p-8 shadow-sm hover:-translate-y-1 hover:shadow-xl transition-all duration-200`}
             >
               <h3 className="font-bold text-gray-900 text-lg mb-3">{p.name}</h3>
               <p className="text-gray-600 text-sm leading-relaxed">{p.description}</p>
@@ -229,19 +229,19 @@ export default function HomePage() {
           <div className="flex flex-wrap justify-center gap-4">
             <Link
               href="/autism"
-              className="px-7 py-3.5 bg-white text-brand-700 font-bold rounded-2xl hover:bg-blue-50 transition-colors shadow-lg"
+              className="px-6 py-3 bg-white text-brand-700 font-bold rounded-xl shadow-md hover:bg-blue-50 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-200"
             >
               Explore MITA
             </Link>
             <Link
               href="/brain-training"
-              className="px-7 py-3.5 bg-white/15 border border-white/30 text-white font-bold rounded-2xl hover:bg-white/25 transition-colors"
+              className="px-6 py-3 bg-white/15 border border-white/25 text-white font-semibold rounded-xl hover:bg-white/25 transition-all duration-200"
             >
               Brain Training Apps
             </Link>
             <Link
               href="/contact"
-              className="px-7 py-3.5 bg-white/15 border border-white/30 text-white font-bold rounded-2xl hover:bg-white/25 transition-colors"
+              className="px-6 py-3 bg-white/15 border border-white/25 text-white font-semibold rounded-xl hover:bg-white/25 transition-all duration-200"
             >
               Contact Us
             </Link>

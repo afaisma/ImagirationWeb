@@ -140,7 +140,7 @@ export default function AutismPage() {
               href="https://www.mdpi.com/2227-9032/8/4/566"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-teal-600 text-white font-semibold rounded-xl hover:bg-teal-700 transition-colors"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-teal-600 text-white font-semibold rounded-xl shadow hover:bg-teal-700 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200"
             >
               Read the Study
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -177,7 +177,7 @@ export default function AutismPage() {
       </section>
 
       {/* Download */}
-      <section id="download" className="bg-gray-50 border-y border-gray-100">
+      <section id="download" className="bg-teal-50 border-y border-teal-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
             Download MITA
@@ -193,7 +193,7 @@ export default function AutismPage() {
                 href={store.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2.5 px-5 py-3 bg-teal-600 text-white font-medium rounded-xl hover:bg-teal-700 transition-colors text-sm"
+                className="inline-flex items-center gap-2.5 px-6 py-3 bg-teal-600 text-white font-semibold rounded-xl shadow hover:bg-teal-700 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200"
               >
                 {store.icon}
                 {store.label}
@@ -252,7 +252,7 @@ export default function AutismPage() {
           {features.map((f) => (
             <div
               key={f.title}
-              className="p-6 rounded-2xl bg-teal-50 border border-teal-100"
+              className="p-6 rounded-2xl bg-teal-50 border border-teal-100 hover:shadow-md transition-shadow duration-200"
             >
               <span className="text-3xl mb-3 block">{f.icon}</span>
               <h3 className="font-semibold text-gray-900 mb-2">{f.title}</h3>
@@ -263,7 +263,7 @@ export default function AutismPage() {
       </section>
 
       {/* Testimonials / More */}
-      <section id="testimonials" className="bg-gray-50 border-t border-gray-100">
+      <section id="testimonials" className="bg-teal-50 border-t border-teal-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-white rounded-2xl border border-gray-200 p-7">
