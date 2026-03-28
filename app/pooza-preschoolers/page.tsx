@@ -9,17 +9,17 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    img: "http://imagiration.com/wp-content/uploads/2014/03/i_educational_elephant_pink.png",
+    img: "https://imagiration.com/wp-content/uploads/2014/03/i_educational_elephant_pink.png",
     title: "Fun & Educational",
     body: "Puzzles gradually increase in difficulty to facilitate brain training",
   },
   {
-    img: "http://imagiration.com/wp-content/uploads/2014/03/i_interactive_s.png",
+    img: "https://imagiration.com/wp-content/uploads/2014/03/i_interactive_s.png",
     title: "Simple Interactions",
     body: "Simple drag-and-drop mechanism makes it easy for toddlers and kids to touch and move objects",
   },
   {
-    img: "http://imagiration.com/wp-content/uploads/2014/03/i_fun_smiley.png",
+    img: "https://imagiration.com/wp-content/uploads/2014/03/i_fun_smiley.png",
     title: "Friendly & Engaging",
     body: "Intuitive and friendly interface with beautiful graphics that every child will love",
   },

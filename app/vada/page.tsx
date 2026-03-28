@@ -9,17 +9,17 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    img: "http://imagiration.com/wp-content/uploads/2014/03/i_educational_elephant_pink.png",
+    img: "https://imagiration.com/wp-content/uploads/2014/03/i_educational_elephant_pink.png",
     title: "Fun & Educational",
     body: "Each activity is adaptive and delivers exercises at the exact level of difficulty appropriate for you at any given point in time",
   },
   {
-    img: "http://imagiration.com/wp-content/uploads/2014/03/i_interactive_s.png",
+    img: "https://imagiration.com/wp-content/uploads/2014/03/i_interactive_s.png",
     title: "Simple Interactions",
     body: "Simple drag-and-drop mechanism makes it easy to touch and move objects",
   },
   {
-    img: "http://imagiration.com/wp-content/uploads/2014/03/i_fun_smiley.png",
+    img: "https://imagiration.com/wp-content/uploads/2014/03/i_fun_smiley.png",
     title: "Friendly & Engaging",
     body: "Intuitive and friendly interface with beautiful graphics that everyone will love",
   },
@@ -75,7 +75,7 @@ export default function VadaPage() {
           <div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="http://imagiration.com/wp-content/uploads/2022/06/314x0w-1.webp"
+              src="https://imagiration.com/wp-content/uploads/2022/06/314x0w-1.webp"
               alt="VADA app"
               className="w-full max-w-xs mx-auto rounded-2xl shadow-lg"
             />

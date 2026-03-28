@@ -8,17 +8,17 @@ export const metadata: Metadata = {
 };
 
 const screenshots = [
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/1_Home.png", caption: "Home Screen" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/2_Progress.png", caption: "Progress Tab" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/3_Cumulative.png", caption: "Cumulative Progress" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/4_ProgressTable.png", caption: "Progress Table" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/5_ProgressGraph.png", caption: "Progress Graph" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/7_Number-of-Games.png", caption: "Number of Games" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/8_Number-of-Puzzles.png", caption: "Number of Puzzles" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/9_Add-Remove.png", caption: "Add/Remove Games" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/10_Difficulty-level.png", caption: "Difficulty Level" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/11_ATEC.png", caption: "ATEC Checklist" },
-  { src: "http://imagiration.com/wp-content/uploads/2017/03/12_About.png", caption: "About" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/1_Home.png", caption: "Home Screen" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/2_Progress.png", caption: "Progress Tab" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/3_Cumulative.png", caption: "Cumulative Progress" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/4_ProgressTable.png", caption: "Progress Table" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/5_ProgressGraph.png", caption: "Progress Graph" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/7_Number-of-Games.png", caption: "Number of Games" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/8_Number-of-Puzzles.png", caption: "Number of Puzzles" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/9_Add-Remove.png", caption: "Add/Remove Games" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/10_Difficulty-level.png", caption: "Difficulty Level" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/11_ATEC.png", caption: "ATEC Checklist" },
+  { src: "https://imagiration.com/wp-content/uploads/2017/03/12_About.png", caption: "About" },
 ];
 
 export default function MitaParentsCornerPage() {
