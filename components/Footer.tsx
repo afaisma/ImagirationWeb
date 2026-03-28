@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gray-100 bg-gray-50">
+    <footer className="border-t border-gray-200 bg-[#f0ede8]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -82,7 +82,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-gray-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-400">
+        <div className="mt-10 pt-6 border-t border-gray-300 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-400">
           <p>&copy; {new Date().getFullYear()} ImagiRation. All rights reserved.</p>
           <p>
             <a href="mailto:info@imagiration.com" className="hover:text-brand-600 transition-colors">

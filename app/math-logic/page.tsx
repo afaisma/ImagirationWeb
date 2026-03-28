@@ -55,7 +55,7 @@ export default function MathLogicPage() {
       <section className="bg-gradient-to-br from-violet-600 to-indigo-700 text-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28">
           <div className="max-w-3xl">
-            <p className="inline-flex items-center gap-2 text-sm font-medium text-violet-200 bg-white/10 rounded-full px-4 py-1.5 mb-6">
+            <p className="inline-flex items-center gap-2 text-sm font-medium text-violet-200 bg-white/20 border border-white/20 rounded-full px-4 py-1.5 mb-6">
               Brain Training App
             </p>
             <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-5">
@@ -141,7 +141,9 @@ export default function MathLogicPage() {
             {features.map((f) => (
               <div key={f.title} className="flex flex-col items-center text-center gap-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={f.img} alt={f.title} className="w-20 h-20 object-contain" />
+                <div className="bg-violet-100 rounded-xl p-3">
+                  <img src={f.img} alt={f.title} className="w-20 h-20 object-contain" />
+                </div>
                 <h3 className="font-bold text-gray-900 text-lg">{f.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{f.body}</p>
               </div>
@@ -155,16 +157,18 @@ export default function MathLogicPage() {
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-8">
           Our Math &amp; Logic app is validated by research
         </h2>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-          {researchImages.map((img) => (
-            // eslint-disable-next-line @next/next/no-img-element
-            <img
-              key={img.src}
-              src={img.src}
-              alt={img.alt}
-              className="w-full rounded-xl shadow-sm"
-            />
-          ))}
+        <div className="bg-gradient-to-br from-violet-50 to-indigo-50 rounded-3xl p-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+            {researchImages.map((img) => (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                key={img.src}
+                src={img.src}
+                alt={img.alt}
+                className="w-full rounded-xl shadow-sm"
+              />
+            ))}
+          </div>
         </div>
       </section>
 

@@ -62,10 +62,10 @@ export default function AutismPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-teal-600 to-cyan-700 text-white">
+      <section className="bg-gradient-to-br from-teal-500 to-emerald-600 text-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28">
           <div className="max-w-3xl">
-            <p className="inline-flex items-center gap-2 text-sm font-medium text-teal-100 bg-white/10 rounded-full px-4 py-1.5 mb-6">
+            <p className="inline-flex items-center gap-2 text-sm font-medium text-teal-100 bg-white/20 border border-white/20 rounded-full px-4 py-1.5 mb-6">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400" />
               FDA Breakthrough Device Designation
             </p>
@@ -165,10 +165,10 @@ export default function AutismPage() {
               ].map((s) => (
                 <div
                   key={s.label}
-                  className="flex items-center gap-5 p-5 rounded-xl bg-teal-50 border border-teal-100"
+                  className="bg-gradient-to-r from-teal-500 to-emerald-600 text-white rounded-2xl p-6"
                 >
-                  <p className="text-3xl font-bold text-teal-600 min-w-28">{s.value}</p>
-                  <p className="text-gray-600 text-sm">{s.label}</p>
+                  <p className="text-4xl font-bold mb-1">{s.value}</p>
+                  <p className="text-sm opacity-90">{s.label}</p>
                 </div>
               ))}
             </div>
@@ -193,7 +193,7 @@ export default function AutismPage() {
                 href={store.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2.5 px-5 py-3 bg-gray-900 text-white font-medium rounded-xl hover:bg-gray-800 transition-colors text-sm"
+                className="inline-flex items-center gap-2.5 px-5 py-3 bg-teal-600 text-white font-medium rounded-xl hover:bg-teal-700 transition-colors text-sm"
               >
                 {store.icon}
                 {store.label}
