@@ -149,21 +149,29 @@ export default function AutismPage() {
             </a>
           </div>
 
-          <div className="space-y-4">
-            {[
-              { value: "6,454", label: "Children in the clinical study" },
-              { value: "2.2×", label: "Greater language improvement vs. control" },
-              { value: "p<0.0001", label: "Statistical significance" },
-              { value: "3 years", label: "Study duration" },
-            ].map((s) => (
-              <div
-                key={s.label}
-                className="flex items-center gap-5 p-5 rounded-xl bg-teal-50 border border-teal-100"
-              >
-                <p className="text-3xl font-bold text-teal-600 min-w-28">{s.value}</p>
-                <p className="text-gray-600 text-sm">{s.label}</p>
-              </div>
-            ))}
+          <div>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/2015/08/MainMenu_inIpad2.png"
+              alt="MITA app main menu on iPad"
+              className="w-full rounded-2xl shadow-lg mb-6"
+            />
+            <div className="space-y-4">
+              {[
+                { value: "6,454", label: "Children in the clinical study" },
+                { value: "2.2×", label: "Greater language improvement vs. control" },
+                { value: "p<0.0001", label: "Statistical significance" },
+                { value: "3 years", label: "Study duration" },
+              ].map((s) => (
+                <div
+                  key={s.label}
+                  className="flex items-center gap-5 p-5 rounded-xl bg-teal-50 border border-teal-100"
+                >
+                  <p className="text-3xl font-bold text-teal-600 min-w-28">{s.value}</p>
+                  <p className="text-gray-600 text-sm">{s.label}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
