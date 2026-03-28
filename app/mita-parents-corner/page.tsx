@@ -53,7 +53,7 @@ export default function MitaParentsCornerPage() {
               <img
                 src={s.src}
                 alt={s.caption}
-                className="w-full rounded-xl shadow-sm border border-gray-100"
+                className="w-full rounded-xl shadow-sm border border-gray-100 hover:scale-105 transition-transform duration-300"
               />
               <p className="text-sm text-gray-600 text-center font-medium">{s.caption}</p>
             </div>

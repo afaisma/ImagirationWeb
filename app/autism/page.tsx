@@ -154,6 +154,7 @@ export default function AutismPage() {
             <img
               src="/images/2015/08/MainMenu_inIpad2.png"
               alt="MITA app main menu on iPad"
+              data-animate
               className="w-full rounded-2xl shadow-lg mb-6"
             />
             <div className="space-y-4">
@@ -165,6 +166,7 @@ export default function AutismPage() {
               ].map((s) => (
                 <div
                   key={s.label}
+                  data-animate
                   className="bg-gradient-to-r from-teal-500 to-emerald-600 text-white rounded-2xl p-6"
                 >
                   <p className="text-4xl font-bold mb-1">{s.value}</p>
@@ -252,6 +254,7 @@ export default function AutismPage() {
           {features.map((f) => (
             <div
               key={f.title}
+              data-animate
               className="p-6 rounded-2xl bg-teal-50 border border-teal-100 hover:shadow-md transition-shadow duration-200"
             >
               <span className="text-3xl mb-3 block">{f.icon}</span>

@@ -221,6 +221,7 @@ export default function SciencePage() {
           ].map((stat) => (
             <div
               key={stat.label}
+              data-animate
               className="text-center p-8 rounded-2xl bg-indigo-50 border border-indigo-100 hover:shadow-md transition-shadow duration-200"
             >
               <p className="text-2xl sm:text-3xl font-bold text-indigo-700 mb-2">{stat.value}</p>
@@ -242,7 +243,7 @@ export default function SciencePage() {
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10">
             ImagiRation Publications
           </h2>
-          <div className="space-y-3">
+          <div data-animate className="space-y-3">
             {publications.map((pub, i) => (
               <div
                 key={i}

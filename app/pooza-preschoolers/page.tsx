@@ -167,7 +167,7 @@ export default function PoozaPreschoolersPage() {
               key={img.src}
               src={img.src}
               alt={img.alt}
-              className="w-full rounded-xl shadow-sm"
+              className="w-full rounded-xl shadow-sm hover:scale-105 transition-transform duration-300"
             />
           ))}
         </div>

@@ -18,3 +18,29 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-nunito), system-ui, sans-serif;
 }
+
+/* Scroll animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+[data-animate] {
+  opacity: 0;
+}
+
+[data-animate].is-visible {
+  animation: fadeInUp 0.55s ease-out forwards;
+}
+
+[data-animate-delay="100"].is-visible { animation-delay: 0.1s; }
+[data-animate-delay="150"].is-visible { animation-delay: 0.15s; }
+[data-animate-delay="200"].is-visible { animation-delay: 0.2s; }
+[data-animate-delay="300"].is-visible { animation-delay: 0.3s; }
+[data-animate-delay="400"].is-visible { animation-delay: 0.4s; }

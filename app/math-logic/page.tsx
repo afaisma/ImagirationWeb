@@ -139,7 +139,7 @@ export default function MathLogicPage() {
           </h2>
           <div className="grid sm:grid-cols-3 gap-8">
             {features.map((f) => (
-              <div key={f.title} className="flex flex-col items-center text-center gap-4 hover:shadow-md transition-shadow duration-200 rounded-2xl p-4">
+              <div key={f.title} data-animate className="flex flex-col items-center text-center gap-4 hover:shadow-md transition-shadow duration-200 rounded-2xl p-4">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <div className="bg-violet-100 rounded-xl p-3">
                   <img src={f.img} alt={f.title} className="w-20 h-20 object-contain" />
@@ -165,7 +165,8 @@ export default function MathLogicPage() {
                 key={img.src}
                 src={img.src}
                 alt={img.alt}
-                className="w-full rounded-xl shadow-sm"
+                data-animate
+                className="w-full rounded-xl shadow-sm hover:scale-105 transition-transform duration-300"
               />
             ))}
           </div>

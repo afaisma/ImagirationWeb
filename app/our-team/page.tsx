@@ -101,14 +101,20 @@ function TeamCard({
   title,
   img,
   bio,
+  animateDelay,
 }: {
   name: string;
   title: string;
   img: string;
   bio: string;
+  animateDelay?: string;
 }) {
   return (
-    <div className="flex flex-col sm:flex-row gap-6 p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+    <div
+      data-animate
+      {...(animateDelay ? { "data-animate-delay": animateDelay } : {})}
+      className="flex flex-col sm:flex-row gap-6 p-6 bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow"
+    >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src={img}
@@ -150,8 +156,8 @@ export default function OurTeamPage() {
           Founders &amp; Leadership
         </h2>
         <div className="space-y-6">
-          {founders.map((member) => (
-            <TeamCard key={member.name} {...member} />
+          {founders.map((member, i) => (
+            <TeamCard key={member.name} {...member} animateDelay={i % 2 === 1 ? "100" : undefined} />
           ))}
         </div>
       </section>
@@ -163,8 +169,8 @@ export default function OurTeamPage() {
             Research Interns
           </h2>
           <div className="space-y-6">
-            {interns.map((member) => (
-              <TeamCard key={member.name} {...member} />
+            {interns.map((member, i) => (
+              <TeamCard key={member.name} {...member} animateDelay={i % 2 === 1 ? "100" : undefined} />
             ))}
           </div>
         </div>
