@@ -140,7 +140,7 @@ export default function OurTeamPage() {
             <p className="inline-flex items-center gap-2 text-sm font-medium text-gray-300 bg-white/10 rounded-full px-4 py-1.5 mb-6">
               ImagiRation
             </p>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-5">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-5">
               Our Team
             </h1>
             <p className="text-lg text-gray-300 leading-relaxed">

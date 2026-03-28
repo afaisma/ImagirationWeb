@@ -38,8 +38,8 @@ export default function RecoverBrainPage() {
             <p className="inline-flex items-center gap-2 text-sm font-medium text-rose-200 bg-white/10 rounded-full px-4 py-1.5 mb-6">
               Cognitive Rehabilitation
             </p>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-5">
-              RecoverBrain Therapy
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-5">
+              <span className="bg-gradient-to-r from-white to-rose-200 bg-clip-text text-transparent">RecoverBrain Therapy</span>
             </h1>
             <p className="text-lg text-rose-100 leading-relaxed mb-8">
               Language Comprehension &amp; Cognitive Therapy for Aphasia, Stroke, Dementia &amp; Alzheimer&apos;s Disease.

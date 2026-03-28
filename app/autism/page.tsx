@@ -69,8 +69,8 @@ export default function AutismPage() {
               <span className="w-1.5 h-1.5 rounded-full bg-green-400" />
               FDA Breakthrough Device Designation
             </p>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-5">
-              MITA
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-5">
+              <span className="bg-gradient-to-r from-white to-teal-200 bg-clip-text text-transparent">MITA</span>
               <span className="block text-2xl sm:text-3xl font-normal text-teal-200 mt-1">
                 Mental Imagery Therapy for Autism
               </span>
@@ -255,11 +255,13 @@ export default function AutismPage() {
             <div
               key={f.title}
               data-animate
-              className="p-6 rounded-2xl bg-teal-50 border border-teal-100 hover:shadow-md transition-shadow duration-200"
+              className="p-6 rounded-2xl bg-teal-50 border border-teal-100 hover:shadow-md transition-shadow duration-200 flex gap-4"
             >
-              <span className="text-3xl mb-3 block">{f.icon}</span>
-              <h3 className="font-semibold text-gray-900 mb-2">{f.title}</h3>
-              <p className="text-sm text-gray-600 leading-relaxed">{f.description}</p>
+              <span className="text-2xl w-12 h-12 flex items-center justify-center rounded-xl bg-teal-100 flex-shrink-0">{f.icon}</span>
+              <div>
+                <h3 className="font-semibold text-gray-900 mb-2">{f.title}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{f.description}</p>
+              </div>
             </div>
           ))}
         </div>

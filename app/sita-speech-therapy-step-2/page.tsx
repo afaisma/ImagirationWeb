@@ -45,8 +45,8 @@ export default function SitaPage() {
             <p className="inline-flex items-center gap-2 text-sm font-medium text-teal-100 bg-white/10 rounded-full px-4 py-1.5 mb-6">
               Speech Therapy Step 2
             </p>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-5">
-              SITA – Speech Therapy Step 2
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-5">
+              <span className="bg-gradient-to-r from-white to-teal-200 bg-clip-text text-transparent">SITA – Speech Therapy Step 2</span>
             </h1>
             <p className="text-lg text-teal-100 leading-relaxed mb-8">
               The voice-controlled speech therapy app designed to help your child practice speaking in an engaging educational environment.
@@ -140,8 +140,10 @@ export default function SitaPage() {
           <div className="grid sm:grid-cols-3 gap-8">
             {features.map((f) => (
               <div key={f.title} className="flex flex-col items-center text-center gap-4 hover:shadow-md transition-shadow duration-200 rounded-2xl p-4">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src={f.img} alt={f.title} className="w-20 h-20 object-contain" />
+                <div className="bg-teal-100 rounded-xl p-3">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={f.img} alt={f.title} className="w-20 h-20 object-contain" />
+                </div>
                 <h3 className="font-bold text-gray-900 text-lg">{f.title}</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">{f.body}</p>
               </div>

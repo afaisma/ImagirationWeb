@@ -54,7 +54,7 @@ export default function HomePage() {
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6">
               We improved language in over{" "}
-              <span className="text-yellow-300">2.5 million children</span> in
+              <span className="bg-gradient-to-r from-yellow-300 to-amber-300 bg-clip-text text-transparent">2.5 million children</span> in
               100+ countries.
             </h1>
             <p className="text-lg sm:text-xl text-blue-100 leading-relaxed mb-10 max-w-2xl">
@@ -128,7 +128,7 @@ export default function HomePage() {
               <p className="text-gray-600 leading-relaxed mb-6">
                 In a 3-year clinical study of 6,454 children with autism, children
                 who engaged with MITA showed{" "}
-                <strong className="text-gray-800">2.2-fold greater language improvement</strong>{" "}
+                <strong className="bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent">2.2-fold greater language improvement</strong>{" "}
                 than children with similar initial evaluations. This difference was
                 statistically significant (<em>p</em>&lt;0.0001).
               </p>

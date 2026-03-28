@@ -64,8 +64,8 @@ export default function BrainTrainingPage() {
             <p className="inline-flex items-center gap-2 text-sm font-medium text-violet-200 bg-white/10 rounded-full px-4 py-1.5 mb-6">
               Brain Training Apps
             </p>
-            <h1 className="text-4xl sm:text-5xl font-bold leading-tight tracking-tight mb-5">
-              Apps for brain training!
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-5">
+              <span className="bg-gradient-to-r from-white to-violet-200 bg-clip-text text-transparent">Apps for brain training!</span>
             </h1>
             <p className="text-lg text-violet-100 leading-relaxed">
               Fun and educational puzzles — crafted by brain scientists, educators,
