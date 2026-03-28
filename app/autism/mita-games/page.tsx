@@ -8,39 +8,39 @@ export const metadata: Metadata = {
 };
 
 const easyGames = [
-  { name: "Language", img: "http://imagiration.com/wp-content/uploads/2016/07/button_game_language.png" },
-  { name: "Matching Cars", img: "http://imagiration.com/wp-content/uploads/2016/07/button_game_3.png" },
-  { name: "Outlines", img: "http://imagiration.com/wp-content/uploads/2016/07/button_game_wooden_puzzles.png" },
-  { name: "Matching Animals", img: "http://imagiration.com/wp-content/uploads/2016/07/button_game_1.png" },
-  { name: "Patches", img: "http://imagiration.com/wp-content/uploads/2016/07/button_game_2.png" },
+  { name: "Language", img: "https://imagiration.com/wp-content/uploads/2016/07/button_game_language.png" },
+  { name: "Matching Cars", img: "https://imagiration.com/wp-content/uploads/2016/07/button_game_3.png" },
+  { name: "Outlines", img: "https://imagiration.com/wp-content/uploads/2016/07/button_game_wooden_puzzles.png" },
+  { name: "Matching Animals", img: "https://imagiration.com/wp-content/uploads/2016/07/button_game_1.png" },
+  { name: "Patches", img: "https://imagiration.com/wp-content/uploads/2016/07/button_game_2.png" },
 ];
 
 const intermediateGames = [
-  { name: "Combine Elephants", img: "http://imagiration.com/wp-content/uploads/2016/07/button_game_5.png" },
-  { name: "Arithmetics", img: "http://imagiration.com/wp-content/uploads/2018/12/ArithmeticGame.png" },
-  { name: "Combine Butterflies", img: "http://imagiration.com/wp-content/uploads/2018/12/CombineButterflies.png" },
-  { name: "Count Everything", img: "http://imagiration.com/wp-content/uploads/2016/07/button_game_4.png" },
-  { name: "Odd-One-Out", img: "http://imagiration.com/wp-content/uploads/2018/12/icon_gm16.png" },
-  { name: "Combine Trains", img: "http://imagiration.com/wp-content/uploads/2016/07/button_game_6.png" },
+  { name: "Combine Elephants", img: "https://imagiration.com/wp-content/uploads/2016/07/button_game_5.png" },
+  { name: "Arithmetics", img: "https://imagiration.com/wp-content/uploads/2018/12/ArithmeticGame.png" },
+  { name: "Combine Butterflies", img: "https://imagiration.com/wp-content/uploads/2018/12/CombineButterflies.png" },
+  { name: "Count Everything", img: "https://imagiration.com/wp-content/uploads/2016/07/button_game_4.png" },
+  { name: "Odd-One-Out", img: "https://imagiration.com/wp-content/uploads/2018/12/icon_gm16.png" },
+  { name: "Combine Trains", img: "https://imagiration.com/wp-content/uploads/2016/07/button_game_6.png" },
 ];
 
 const advancedGames = [
-  { name: "Spatial Prepositions: On top / Inside / Under", img: "http://imagiration.com/wp-content/uploads/2018/12/CombineToysOntopInsideUnder.png" },
-  { name: "Flexible Language w/Auditory Memory", img: "http://imagiration.com/wp-content/uploads/2018/12/FlexibleLanguagewithAuditoryMemory.png" },
-  { name: "Time Prepositions: Before/After", img: "http://imagiration.com/wp-content/uploads/2020/02/icon_gm17.png" },
-  { name: "Perspective Taking: Left / Inside / Right", img: "http://imagiration.com/wp-content/uploads/2018/12/CombineToysLeftInsideRight.png" },
-  { name: "Flexible Language, Nested Logic", img: "http://imagiration.com/wp-content/uploads/2018/12/FlexibleLanguageNestedLogicGame.png" },
-  { name: "Time Prepositions: Memory Training", img: "http://imagiration.com/wp-content/uploads/2020/03/icon_gm18.png" },
-  { name: "Spatial Prepositions: In front / Inside / Behind", img: "http://imagiration.com/wp-content/uploads/2018/12/icon_gm9.png" },
-  { name: "Auditory Memory Game", img: "http://imagiration.com/wp-content/uploads/2016/07/button_game_7.png" },
-  { name: "Analogies", img: "http://imagiration.com/wp-content/uploads/2020/03/icon_gm19.png" },
-  { name: "Passive Verb Tense: Catch Up Game", img: "http://imagiration.com/wp-content/uploads/2020/03/icon_gm20.png" },
-  { name: "Catch Up Game: Memory Training", img: "http://imagiration.com/wp-content/uploads/2020/02/icon_gm21.png" },
-  { name: "Subject/Object: Garden Hose Game", img: "http://imagiration.com/wp-content/uploads/2020/02/icon_gm22.png" },
-  { name: "Memory Training: Garden Hose Game", img: "http://imagiration.com/wp-content/uploads/2020/02/icon_gm24.png" },
-  { name: "Selective Attention", img: "http://imagiration.com/wp-content/uploads/2020/02/icon_gm25.png" },
-  { name: "Carries or Rides?", img: "http://imagiration.com/wp-content/uploads/2020/02/icon_gm26.png" },
-  { name: "Count Everything (advanced)", img: "http://imagiration.com/wp-content/uploads/2020/02/icon_gm23.png" },
+  { name: "Spatial Prepositions: On top / Inside / Under", img: "https://imagiration.com/wp-content/uploads/2018/12/CombineToysOntopInsideUnder.png" },
+  { name: "Flexible Language w/Auditory Memory", img: "https://imagiration.com/wp-content/uploads/2018/12/FlexibleLanguagewithAuditoryMemory.png" },
+  { name: "Time Prepositions: Before/After", img: "https://imagiration.com/wp-content/uploads/2020/02/icon_gm17.png" },
+  { name: "Perspective Taking: Left / Inside / Right", img: "https://imagiration.com/wp-content/uploads/2018/12/CombineToysLeftInsideRight.png" },
+  { name: "Flexible Language, Nested Logic", img: "https://imagiration.com/wp-content/uploads/2018/12/FlexibleLanguageNestedLogicGame.png" },
+  { name: "Time Prepositions: Memory Training", img: "https://imagiration.com/wp-content/uploads/2020/03/icon_gm18.png" },
+  { name: "Spatial Prepositions: In front / Inside / Behind", img: "https://imagiration.com/wp-content/uploads/2018/12/icon_gm9.png" },
+  { name: "Auditory Memory Game", img: "https://imagiration.com/wp-content/uploads/2016/07/button_game_7.png" },
+  { name: "Analogies", img: "https://imagiration.com/wp-content/uploads/2020/03/icon_gm19.png" },
+  { name: "Passive Verb Tense: Catch Up Game", img: "https://imagiration.com/wp-content/uploads/2020/03/icon_gm20.png" },
+  { name: "Catch Up Game: Memory Training", img: "https://imagiration.com/wp-content/uploads/2020/02/icon_gm21.png" },
+  { name: "Subject/Object: Garden Hose Game", img: "https://imagiration.com/wp-content/uploads/2020/02/icon_gm22.png" },
+  { name: "Memory Training: Garden Hose Game", img: "https://imagiration.com/wp-content/uploads/2020/02/icon_gm24.png" },
+  { name: "Selective Attention", img: "https://imagiration.com/wp-content/uploads/2020/02/icon_gm25.png" },
+  { name: "Carries or Rides?", img: "https://imagiration.com/wp-content/uploads/2020/02/icon_gm26.png" },
+  { name: "Count Everything (advanced)", img: "https://imagiration.com/wp-content/uploads/2020/02/icon_gm23.png" },
 ];
 
 function GameCard({ name, img, difficulty }: { name: string; img: string; difficulty: "Easy" | "Intermediate" | "Advanced" }) {

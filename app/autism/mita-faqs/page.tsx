@@ -113,7 +113,7 @@ export default function MitaFaqsPage() {
       <section className="max-w-6xl mx-auto px-4 sm:px-6 pt-12 flex justify-center">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="http://imagiration.com/wp-content/uploads/2015/08/mita.png"
+          src="https://imagiration.com/wp-content/uploads/2015/08/mita.png"
           alt="MITA"
           className="w-30 h-auto"
           style={{ width: 120 }}

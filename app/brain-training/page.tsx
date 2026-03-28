@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 const apps = [
   {
     href: "/math-logic",
-    img: "http://imagiration.com/wp-content/uploads/2018/12/Math320.jpg",
+    img: "https://imagiration.com/wp-content/uploads/2018/12/Math320.jpg",
     name: "Math & Logic",
     tagline: "Adaptive math puzzles for ages 2–10",
     description:
@@ -21,7 +21,7 @@ const apps = [
   },
   {
     href: "/pooza-preschoolers",
-    img: "http://imagiration.com/wp-content/uploads/2018/12/320x0w3.jpg",
+    img: "https://imagiration.com/wp-content/uploads/2018/12/320x0w3.jpg",
     name: "POOZA for Preschoolers",
     tagline: "900+ educational puzzles for growing minds",
     description:
@@ -32,7 +32,7 @@ const apps = [
   },
   {
     href: "/pooza-for-toddlers",
-    img: "http://imagiration.com/wp-content/uploads/2018/12/320x0w2.jpg",
+    img: "https://imagiration.com/wp-content/uploads/2018/12/320x0w2.jpg",
     name: "POOZA for Toddlers",
     tagline: "600+ puzzles built for the earliest learners",
     description:
@@ -43,7 +43,7 @@ const apps = [
   },
   {
     href: "/recoverbrain-therapy",
-    img: "http://imagiration.com/wp-content/uploads/2018/12/320x0w4.jpg",
+    img: "https://imagiration.com/wp-content/uploads/2018/12/320x0w4.jpg",
     name: "RecoverBrain Therapy",
     tagline: "Cognitive rehabilitation for adults",
     description:

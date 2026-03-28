@@ -50,7 +50,7 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="http://imagiration.com/wp-content/uploads/2016/09/logo_horizontal-2.png"
+              src="https://imagiration.com/wp-content/uploads/2016/09/logo_horizontal-2.png"
               alt="ImagiRation"
               className="h-10 w-auto"
             />

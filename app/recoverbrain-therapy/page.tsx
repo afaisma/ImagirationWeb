@@ -78,7 +78,7 @@ export default function RecoverBrainPage() {
           <div className="md:w-1/2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="http://imagiration.com/wp-content/uploads/2018/12/2732x2048.png"
+              src="https://imagiration.com/wp-content/uploads/2018/12/2732x2048.png"
               alt="RecoverBrain Therapy app screenshot"
               className="w-full rounded-2xl shadow-lg"
             />
