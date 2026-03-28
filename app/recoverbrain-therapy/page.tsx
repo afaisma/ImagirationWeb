@@ -32,7 +32,7 @@ export default function RecoverBrainPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-rose-600 to-pink-700 text-white">
+      <section className="bg-gradient-to-br from-rose-500 to-pink-600 text-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28">
           <div className="max-w-3xl">
             <p className="inline-flex items-center gap-2 text-sm font-medium text-rose-200 bg-white/10 rounded-full px-4 py-1.5 mb-6">
@@ -96,12 +96,12 @@ export default function RecoverBrainPage() {
             <div className="grid grid-cols-2 gap-2">
               {cognitiveFields.map((field) => (
                 <div key={field} className="flex items-center gap-2 text-sm text-gray-700">
-                  <span className="w-1.5 h-1.5 rounded-full bg-rose-500 flex-shrink-0" />
+                  <span className="w-2 h-2 rounded-full bg-rose-600 flex-shrink-0" />
                   {field}
                 </div>
               ))}
               <div className="flex items-center gap-2 text-sm text-gray-500 italic col-span-2">
-                <span className="w-1.5 h-1.5 rounded-full bg-rose-300 flex-shrink-0" />
+                <span className="w-2 h-2 rounded-full bg-rose-300 flex-shrink-0" />
                 and more
               </div>
             </div>
@@ -133,7 +133,7 @@ export default function RecoverBrainPage() {
         </h2>
         <ul className="space-y-4 max-w-2xl">
           {features.map((f) => (
-            <li key={f} className="flex items-start gap-3">
+            <li key={f} className="flex items-start gap-3 bg-rose-50 rounded-2xl p-5">
               <span className="mt-1 flex-shrink-0 w-5 h-5 rounded-full bg-rose-600 text-white flex items-center justify-center text-xs font-bold">✓</span>
               <span className="text-gray-700 leading-relaxed">{f}</span>
             </li>

@@ -58,7 +58,7 @@ export default function BrainTrainingPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-violet-600 to-indigo-700 text-white">
+      <section className="bg-gradient-to-br from-violet-500 to-purple-700 text-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-20 sm:py-28">
           <div className="max-w-3xl">
             <p className="inline-flex items-center gap-2 text-sm font-medium text-violet-200 bg-white/10 rounded-full px-4 py-1.5 mb-6">
@@ -78,30 +78,32 @@ export default function BrainTrainingPage() {
 
       {/* Intro */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-14">
-        <div className="flex flex-col md:flex-row gap-10 items-center mb-10">
-          <div className="md:w-1/2">
-            <p className="text-gray-600 leading-relaxed text-lg">
-              We are a group of brain scientists, educators, artists and developers
-              who create educational puzzles for both kids &amp; adults. Our apps
-              include an array of puzzles designed to facilitate the development of
-              neural networks essential for creativity and cognitive well-being.
-            </p>
+        <div className="bg-violet-50 rounded-3xl p-8">
+          <div className="flex flex-col md:flex-row gap-10 items-center mb-10">
+            <div className="md:w-1/2">
+              <p className="text-gray-600 leading-relaxed text-lg">
+                We are a group of brain scientists, educators, artists and developers
+                who create educational puzzles for both kids &amp; adults. Our apps
+                include an array of puzzles designed to facilitate the development of
+                neural networks essential for creativity and cognitive well-being.
+              </p>
+            </div>
+            <div className="md:w-1/2">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/2014/03/FeatureImage2.png"
+                alt="Hundreds of puzzles for your kids"
+                className="w-full rounded-2xl shadow-lg"
+              />
+            </div>
           </div>
-          <div className="md:w-1/2">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/images/2014/03/FeatureImage2.png"
-              alt="Hundreds of puzzles for your kids"
-              className="w-full rounded-2xl shadow-lg"
-            />
-          </div>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/2015/08/for_all_ages_v.jpg"
+            alt="Educational puzzles for all ages"
+            className="w-full rounded-2xl shadow-lg"
+          />
         </div>
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/images/2015/08/for_all_ages_v.jpg"
-          alt="Educational puzzles for all ages"
-          className="w-full rounded-2xl shadow-lg"
-        />
       </section>
 
       {/* Apps */}
@@ -114,7 +116,7 @@ export default function BrainTrainingPage() {
             <Link
               key={app.href}
               href={app.href}
-              className={`group rounded-2xl border p-7 ${app.color} transition-all hover:shadow-md hover:-translate-y-0.5`}
+              className={`group rounded-2xl border p-7 ${app.color} transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5`}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
