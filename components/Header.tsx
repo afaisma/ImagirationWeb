@@ -112,7 +112,7 @@ export default function Header() {
               Science
             </Link>
             <Link
-              href="/contact"
+              href="/our-team"
               className="px-3 py-2 text-sm font-medium text-gray-700 rounded-md hover:text-brand-600 hover:bg-brand-50 transition-colors"
             >
               Our Team
@@ -177,7 +177,7 @@ export default function Header() {
               Science
             </Link>
             <Link
-              href="/contact"
+              href="/our-team"
               onClick={() => setMobileOpen(false)}
               className="block px-4 py-2 text-sm font-semibold text-gray-800"
             >
