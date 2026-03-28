@@ -9,17 +9,17 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    img: "https://imagiration.com/wp-content/uploads/2014/03/i_educational_elephant_pink.png",
+    img: "/images/2014/03/i_educational_elephant_pink.png",
     title: "Fun & Educational",
     body: "Puzzles gradually increase in difficulty to facilitate brain training",
   },
   {
-    img: "https://imagiration.com/wp-content/uploads/2014/03/i_interactive_s.png",
+    img: "/images/2014/03/i_interactive_s.png",
     title: "Simple Interactions",
     body: "Simple drag-and-drop mechanism makes it easy for toddlers and kids to touch and move objects",
   },
   {
-    img: "https://imagiration.com/wp-content/uploads/2014/03/i_fun_smiley.png",
+    img: "/images/2014/03/i_fun_smiley.png",
     title: "Friendly & Engaging",
     body: "Intuitive and friendly interface with beautiful graphics that every child will love",
   },
@@ -27,31 +27,31 @@ const features = [
 
 const puzzleImages = [
   {
-    src: "https://imagiration.com/wp-content/uploads/2014/03/IMG_0059.png",
+    src: "/images/2014/03/IMG_0059.png",
     alt: "Pooza toddler puzzle example",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2014/03/IMG_0063.png",
+    src: "/images/2014/03/IMG_0063.png",
     alt: "Pooza toddler puzzle cats",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2014/11/IMG_0064.png",
+    src: "/images/2014/11/IMG_0064.png",
     alt: "Pooza toddler puzzle sorting",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2014/11/IMG_0065.png",
+    src: "/images/2014/11/IMG_0065.png",
     alt: "Pooza toddler puzzle giraffe",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2014/11/IMG_0071.png",
+    src: "/images/2014/11/IMG_0071.png",
     alt: "Pooza toddler puzzle activity",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2014/11/IMG_0077.png",
+    src: "/images/2014/11/IMG_0077.png",
     alt: "Pooza toddler puzzle activity 2",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2014/11/IMG_0084.png",
+    src: "/images/2014/11/IMG_0084.png",
     alt: "Pooza toddler puzzle activity 3",
   },
 ];

@@ -9,17 +9,17 @@ export const metadata: Metadata = {
 
 const features = [
   {
-    img: "https://imagiration.com/wp-content/uploads/2014/03/i_educational_elephant_pink.png",
+    img: "/images/2014/03/i_educational_elephant_pink.png",
     title: "Fun & Educational",
     body: "Puzzles gradually increase in difficulty to facilitate brain training",
   },
   {
-    img: "https://imagiration.com/wp-content/uploads/2014/03/i_interactive_s.png",
+    img: "/images/2014/03/i_interactive_s.png",
     title: "Simple Interactions",
     body: "Simple drag-and-drop mechanism makes it easy for toddlers and kids to touch and move objects",
   },
   {
-    img: "https://imagiration.com/wp-content/uploads/2014/03/i_fun_smiley.png",
+    img: "/images/2014/03/i_fun_smiley.png",
     title: "Friendly & Engaging",
     body: "Intuitive and friendly interface with beautiful graphics that every child will love",
   },
@@ -27,23 +27,23 @@ const features = [
 
 const researchImages = [
   {
-    src: "https://imagiration.com/wp-content/uploads/2018/12/IQ-510x382.png",
+    src: "/images/2018/12/IQ-510x382.png",
     alt: "IQ improvement validated by research",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2018/12/improvereasoning-510x382.png",
+    src: "/images/2018/12/improvereasoning-510x382.png",
     alt: "Improves reasoning",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2018/12/spatialthinking-510x382.png",
+    src: "/images/2018/12/spatialthinking-510x382.png",
     alt: "Spatial thinking",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2018/12/validatedbyresearch-510x382.png",
+    src: "/images/2018/12/validatedbyresearch-510x382.png",
     alt: "Validated by research",
   },
   {
-    src: "https://imagiration.com/wp-content/uploads/2018/12/visualreasoning-510x382.png",
+    src: "/images/2018/12/visualreasoning-510x382.png",
     alt: "Visual reasoning",
   },
 ];
