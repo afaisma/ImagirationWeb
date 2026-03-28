@@ -173,7 +173,7 @@ export default function MitaGamesPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors shadow"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl shadow hover:bg-blue-700 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200"
           >
             Contact Us
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -140,7 +140,7 @@ export default function BrainTrainingPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-gray-50 border-t border-gray-100">
+      <section className="bg-violet-50 border-t border-violet-100">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
             Want to work with us?
@@ -151,7 +151,7 @@ export default function BrainTrainingPage() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-brand-600 text-white font-semibold rounded-xl hover:bg-brand-700 transition-colors shadow"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 text-white font-semibold rounded-xl shadow hover:bg-violet-700 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200"
           >
             Get in Touch
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">

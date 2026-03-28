@@ -91,7 +91,7 @@ export default function ContactPage() {
           </p>
           <Link
             href="/our-team"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-brand-600 text-white font-semibold rounded-xl hover:bg-brand-700 transition-colors shadow"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-brand-600 text-white font-semibold rounded-xl shadow hover:bg-brand-700 hover:-translate-y-0.5 hover:shadow-md transition-all duration-200"
           >
             Our Team
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
