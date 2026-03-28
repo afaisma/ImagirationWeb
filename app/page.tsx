@@ -18,7 +18,7 @@ const partners = [
   {
     name: "MIT, Tufts & Georgia State University",
     description:
-      "POOZA, ImagiRation's educational app, was chosen for the Global Literacy Project's "Curious Learning System," led by experts from MIT, Tufts and Georgia State University.",
+      "POOZA, ImagiRation's educational app, was chosen for the Global Literacy Project's \"Curious Learning System,\" led by experts from MIT, Tufts and Georgia State University.",
     href: "/brain-training",
     linkLabel: "POOZA",
     accent: "border-l-violet-400",
