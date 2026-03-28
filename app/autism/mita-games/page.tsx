@@ -54,7 +54,7 @@ function GameCard({ name, img, difficulty }: { name: string; img: string; diffic
   return (
     <div className="bg-white rounded-2xl border border-gray-200 p-4 flex flex-col items-center gap-3 shadow-sm hover:shadow-md transition-shadow">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={img} alt={name} className="w-20 h-20 object-contain rounded-xl" />
+      <img src={img} alt={name} className="w-20 h-20 object-contain rounded-xl hover:scale-105 transition-transform duration-300" />
       <p className="text-sm font-semibold text-gray-800 text-center leading-snug">{name}</p>
       <span className={`text-xs font-medium px-2.5 py-1 rounded-full ${badgeColor}`}>{difficulty}</span>
     </div>

@@ -83,9 +83,11 @@ export default function HomePage() {
       {/* Stats */}
       <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {stats.map((stat) => (
+          {stats.map((stat, i) => (
             <div
               key={stat.value}
+              data-animate
+              data-animate-delay={i === 0 ? undefined : i === 1 ? "100" : i === 2 ? "200" : "300"}
               className={`bg-gradient-to-br ${stat.color} text-white rounded-3xl p-6 sm:p-8 text-center shadow-lg`}
             >
               <div className="text-3xl mb-2">{stat.icon}</div>
@@ -178,9 +180,11 @@ export default function HomePage() {
                   bg: "bg-emerald-100 border-emerald-200",
                   iconBg: "bg-emerald-200",
                 },
-              ].map((card) => (
+              ].map((card, i) => (
                 <div
                   key={card.title}
+                  data-animate
+                  data-animate-delay={i === 0 ? "100" : i === 1 ? "200" : "300"}
                   className={`flex gap-4 p-5 ${card.bg} rounded-2xl border hover:shadow-md transition-shadow duration-200`}
                 >
                   <span className={`text-2xl w-12 h-12 flex items-center justify-center rounded-xl ${card.iconBg} flex-shrink-0`}>{card.icon}</span>
@@ -207,6 +211,7 @@ export default function HomePage() {
           {partners.map((p) => (
             <div
               key={p.name}
+              data-animate
               className={`bg-white rounded-3xl border border-gray-200 border-l-4 ${p.accent} p-8 shadow-sm hover:-translate-y-1 hover:shadow-xl transition-all duration-200`}
             >
               <h3 className="font-bold text-gray-900 text-lg mb-3">{p.name}</h3>

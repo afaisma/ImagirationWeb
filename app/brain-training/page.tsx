@@ -112,10 +112,12 @@ export default function BrainTrainingPage() {
           Check out our latest brain-training apps
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
-          {apps.map((app) => (
+          {apps.map((app, i) => (
             <Link
               key={app.href}
               href={app.href}
+              data-animate
+              data-animate-delay={i === 0 ? "100" : i === 1 ? "200" : i === 2 ? "300" : "400"}
               className={`group rounded-2xl border p-7 ${app.color} transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5`}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
