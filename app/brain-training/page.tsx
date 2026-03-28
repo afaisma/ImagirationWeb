@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 const apps = [
   {
     href: "/math-logic",
+    img: "http://imagiration.com/wp-content/uploads/2018/12/Math320.jpg",
     name: "Math & Logic",
     tagline: "Adaptive math puzzles for ages 2–10",
     description:
@@ -20,6 +21,7 @@ const apps = [
   },
   {
     href: "/pooza-preschoolers",
+    img: "http://imagiration.com/wp-content/uploads/2018/12/320x0w3.jpg",
     name: "POOZA for Preschoolers",
     tagline: "900+ educational puzzles for growing minds",
     description:
@@ -30,6 +32,7 @@ const apps = [
   },
   {
     href: "/pooza-for-toddlers",
+    img: "http://imagiration.com/wp-content/uploads/2018/12/320x0w2.jpg",
     name: "POOZA for Toddlers",
     tagline: "600+ puzzles built for the earliest learners",
     description:
@@ -40,6 +43,7 @@ const apps = [
   },
   {
     href: "/recoverbrain-therapy",
+    img: "http://imagiration.com/wp-content/uploads/2018/12/320x0w4.jpg",
     name: "RecoverBrain Therapy",
     tagline: "Cognitive rehabilitation for adults",
     description:
@@ -96,21 +100,22 @@ export default function BrainTrainingPage() {
               href={app.href}
               className={`group rounded-2xl border p-7 ${app.color} transition-all hover:shadow-md hover:-translate-y-0.5`}
             >
-              <div className="flex items-start gap-4">
-                <span className="text-3xl">{app.icon}</span>
-                <div className="flex-1">
-                  <p className={`text-xs font-semibold uppercase tracking-wider mb-1 ${app.accent}`}>
-                    {app.tagline}
-                  </p>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
-                    {app.name}
-                    <svg className={`w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity ${app.accent}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                    </svg>
-                  </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{app.description}</p>
-                </div>
-              </div>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={app.img}
+                alt={app.name}
+                className="w-24 h-24 rounded-2xl object-cover mb-5 shadow-sm"
+              />
+              <p className={`text-xs font-semibold uppercase tracking-wider mb-1 ${app.accent}`}>
+                {app.tagline}
+              </p>
+              <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                {app.name}
+                <svg className={`w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity ${app.accent}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">{app.description}</p>
             </Link>
           ))}
         </div>
