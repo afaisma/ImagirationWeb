@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const apps = [
   {
-    id: "math-logic",
+    href: "/math-logic",
     name: "Math & Logic",
     tagline: "Adaptive math puzzles for ages 2–10",
     description:
@@ -19,7 +19,7 @@ const apps = [
     accent: "text-violet-600",
   },
   {
-    id: "pooza-preschoolers",
+    href: "/pooza-preschoolers",
     name: "POOZA for Preschoolers",
     tagline: "900+ educational puzzles for growing minds",
     description:
@@ -29,7 +29,7 @@ const apps = [
     accent: "text-amber-600",
   },
   {
-    id: "pooza-toddlers",
+    href: "/pooza-for-toddlers",
     name: "POOZA for Toddlers",
     tagline: "600+ puzzles built for the earliest learners",
     description:
@@ -39,7 +39,7 @@ const apps = [
     accent: "text-emerald-600",
   },
   {
-    id: "recoverbrain",
+    href: "/recoverbrain-therapy",
     name: "RecoverBrain Therapy",
     tagline: "Cognitive rehabilitation for adults",
     description:
@@ -91,22 +91,27 @@ export default function BrainTrainingPage() {
         </h2>
         <div className="grid md:grid-cols-2 gap-6">
           {apps.map((app) => (
-            <article
-              key={app.id}
-              id={app.id}
-              className={`rounded-2xl border p-7 ${app.color} transition-shadow hover:shadow-md`}
+            <Link
+              key={app.href}
+              href={app.href}
+              className={`group rounded-2xl border p-7 ${app.color} transition-all hover:shadow-md hover:-translate-y-0.5`}
             >
               <div className="flex items-start gap-4">
                 <span className="text-3xl">{app.icon}</span>
-                <div>
+                <div className="flex-1">
                   <p className={`text-xs font-semibold uppercase tracking-wider mb-1 ${app.accent}`}>
                     {app.tagline}
                   </p>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{app.name}</h3>
+                  <h3 className="text-xl font-bold text-gray-900 mb-3 flex items-center gap-2">
+                    {app.name}
+                    <svg className={`w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity ${app.accent}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">{app.description}</p>
                 </div>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
       </section>
